@@ -20,7 +20,7 @@ const Contact = () => {
               <div className="flex items-center">
                 <MapPin className="h-6 w-6 text-blue-600" />
                 <span className="ml-4 text-gray-700">
-                 Bengaluru, Karnataka 560085
+                #10, 4th Main Road, Vidyaranyapura, Bangalore, Bangalore North, Karnataka, India, 560097
                 </span>
               </div>
               <div className="flex items-center">
