@@ -19,7 +19,7 @@ const TeamMemberGrid = () => {
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl p-6 flex flex-col items-center"
           >
             <button
-              onClick={() => window.open(member.pdfUrl, "_blank")}
+              // onClick={() => window.open(member.pdfUrl, "_blank")}
               className="group focus:outline-none flex justify-center"
             >
               <div className="relative w-32 h-32 flex justify-center">
