@@ -21,13 +21,13 @@ const teamMembers = [
   },
   {
     name: "Chalapathi V",
-    designation: "Cheif Executive Officer(CEO)",
+    designation: "Chief Executive Officer(CEO)",
     photo: chalapathi,
     pdfUrl: "https://example.com/alice-johnson-resume.pdf",
   },
   {
     name: "Neveda V K",
-    designation: "Cheif Growth Officer(CGO)",
+    designation: "Chief Growth Officer(CGO)",
     photo: Neveda,
     pdfUrl: "https://example.com/alice-johnson-resume.pdf",
   },
