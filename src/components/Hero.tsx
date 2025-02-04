@@ -37,7 +37,7 @@ const Hero = () => {
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
       }`}>
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl animate-slide-up">
-          LOOKING FOR AN ADEQUATE SOLUTION FOR YOUR COMPANY?
+        Join the Renewable Revolution Powering a Sustainable Future Together
         </h1>
         <p className="mt-6 text-xl text-gray-100 max-w-3xl animate-fade-in">
           We provide comprehensive industrial solutions including power projects, fabrication, construction, and solar PV installations.
