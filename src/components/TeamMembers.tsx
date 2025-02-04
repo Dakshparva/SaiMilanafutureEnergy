@@ -34,7 +34,7 @@ const teamMembers = [
   },
   {
     name: "Chalapathi V",
-    designation: "Cheif Executive Officer(CEO)",
+    designation: "Chief Executive Officer(CEO)",
     photo: chalapathi,
     newphoto:"",
     summary:"",
@@ -46,7 +46,7 @@ const teamMembers = [
   },
   {
     name: "Neveda V K",
-    designation: "Cheif Growth Officer(CGO)",
+    designation: "Chief Growth Officer(CGO)",
     photo: Neveda,
     newphoto:"",
     summary:"",
