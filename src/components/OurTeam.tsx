@@ -1,6 +1,19 @@
+
+import  { SetStateAction, useState } from 'react';
 import teamMembers from "./TeamMembers";
+import TeamMemberModal from "./TeamMemberModal";
 
 const TeamMemberGrid = () => {
+  const [selectedMember, setSelectedMember] = useState(null);
+
+  const handleMemberClick = (member: SetStateAction<null>) => {
+    setSelectedMember(member);
+  };
+
+  const closeModal = () => {
+    setSelectedMember(null); 
+  };
+
   return (
     <div className="bg-gray-100 py-12">
       <div className="text-center mb-12">
@@ -17,16 +30,16 @@ const TeamMemberGrid = () => {
           <div
             key={index}
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl p-6 flex flex-col items-center"
+            onClick={() => handleMemberClick(member)} 
           >
             <button
-              // onClick={() => window.open(member.pdfUrl, "_blank")}
               className="group focus:outline-none flex justify-center"
             >
               <div className="relative w-32 h-32 flex justify-center">
                 <img
                   src={member.photo}
                   alt={member.name}
-                  className="w-32 h-32   border-4 border-gray-200 shadow-md"
+                  className="w-32 h-32 border-4 border-gray-200 shadow-md"
                 />
               </div>
             </button>
@@ -38,8 +51,14 @@ const TeamMemberGrid = () => {
           </div>
         ))}
       </div>
+
+  
+      {selectedMember && (
+        <TeamMemberModal member={selectedMember} onClose={closeModal} />
+      )}
     </div>
   );
 };
 
 export default TeamMemberGrid;
+

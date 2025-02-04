@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, Search } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
+import saimilanalogo from "../assets/saimilanalogo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +36,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
+          {/* <img src={saimilanalogo} alt={saimilanalogo} className="w-14 h-14 border-4 border-gray-200  mb-2"  /> */}
             <Link to="/" className="text-2xl font-bold text-blue-600">Sai Milana Future Energy</Link>
           </div>
           
