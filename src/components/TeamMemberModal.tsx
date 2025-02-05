@@ -137,8 +137,8 @@ const TeamMemberModal: React.FC<TeamMemberModalProps> = ({ member, onClose }) =>
           <h4 className="font-semibold mt-2">Key Achievements</h4>
           <p>{member.keyAchievements}</p>
 
-          <h4 className="font-semibold mt-2">Projects</h4>
-          <p>{member.projects}</p>
+          {/* <h4 className="font-semibold mt-2">Projects</h4>
+          <p>{member.projects}</p> */}
 
           <h4 className="font-semibold mt-2">Education</h4>
           <p>{member.education}</p>
