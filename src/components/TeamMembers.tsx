@@ -6,6 +6,7 @@ import Neveda from "../assets/Neveda.jpeg";
 import Nagaraju from "../assets/Nagaraju.jpeg";
 import Venkateshmurthy from "../assets/Venkateshmurthy.jfif";
 import DrPhoto from "../assets/DrPhoto.jpg";
+import Hemalatha from "../assets/Hemalatha.jpeg";
 
 const teamMembers = [
   {
@@ -72,6 +73,17 @@ const teamMembers = [
     experience:"Retired CEO of solid waste management, smart city Benguluru",
     keyAchievements:"Served as CEO of Solid Waste Management for Smart City Bengaluru, effectively managing urban waste disposal and processing.",
     education:"Bsc, BE, MIE",
+    pdfUrl: "https://example.com/alice-johnson-resume.pdf",
+  },
+  {
+    name: "Hemalatha Y K",
+    designation: "Executive Assistant",
+    photo: Hemalatha,
+    newphoto:Hemalatha,
+    summary:"",
+    experience:"",
+    keyAchievements:"",
+    education:"Bachelor of Arts (BA)",
     pdfUrl: "https://example.com/alice-johnson-resume.pdf",
   },
   {
